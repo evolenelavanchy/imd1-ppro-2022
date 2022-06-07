@@ -194,6 +194,7 @@ h2 {
 
 .nos-semences {
   background-color: #967056;
+
 }
 
 .title-white {
@@ -202,4 +203,23 @@ h2 {
 
 .photography-1 img {
   width: 200px;
+}
+
+.position-images {
+  margin-right: 600px;
+}
+
+.font-chillax {
+  font-family: chillax-regular;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.photography-2 img {
+  width: 40px;
+}
+
+.photography-3 img {
+  width: 70px;
 }
