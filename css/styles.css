@@ -233,8 +233,6 @@ h2 {
   margin-right: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  
-
 }
 
 .photography-2 img .container {
@@ -242,21 +240,16 @@ h2 {
   flex-direction: row;
 }
 
-/* .container {
-  display: flex;
-  flex-direction: row;
-}
-
-.element {
-  align-items: center;
-  justify-content: space-between;
-  height: 3px;
-} */
-
 .photography-3 img {
   align-items: center;
   width: 60px;
   margin-left: 130px;
   padding-top: 15px;
+}
+
+.photography-carte {
+  width: 200px;
+  padding-left: 55px;
+  padding-top: 30px;
 }
 
