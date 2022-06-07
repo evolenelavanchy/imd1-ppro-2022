@@ -2,13 +2,25 @@ html{
   scroll-behavior: smooth;
 }
 
+body {
+  max-width: 375px;
+}
 header {
-  background: #d1c3bd;
+  background: #967056;
+  padding: 30px;
+}
+
+.links {
   color: white;
   text-align: right;
   font-family: Chillax-Regular;
+  padding-top: 15px;
 }
 
+h2 {
+  font-family: Plein-Black;
+  text-align: center;
+}
 @font-face {
   font-family: "Chillax";
   src: url('../Chillax-Bold.woff2') format('woff2');
