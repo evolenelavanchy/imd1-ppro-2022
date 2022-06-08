@@ -160,7 +160,7 @@ body {
   margin: 0;
 }
 header {
-  background: #967056;
+  background: #915f43;
   padding: 30px;
 }
 
@@ -199,7 +199,7 @@ h2 {
 }
 
 .nos-semences {
-  background-color: #967056;
+  background-color: #915f43;
   margin-top: 60px;
   padding-top: 10px;
   padding-bottom: 60px;
@@ -253,3 +253,75 @@ h2 {
   padding-top: 30px;
 }
 
+.addresse-1 {
+  color: #bb957b;
+  font-family: chillax-regular;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.addresse-2 {
+  color: #9c7d67;
+  font-family: chillax-regular;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.addresse-3 {
+  color: #835b3f;
+  font-family: chillax-regular;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.addresse-4 {
+  color: #593b29;
+  font-family: chillax-regular;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.addresse-5 {
+  color: #000000;
+  font-family: Chillax-Regular;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.title-footer {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: #915f43;
+  padding-bottom: 50px;
+}
+
+footer p {
+  text-align: center;
+  font-family: chillax-regular;
+  color:#000000;
+}
+
+.text-1 {
+  margin-top: 20px;
+}
+
+.text-2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.link-website a {
+  color: white;
+  text-decoration: none;
+}
+
+.image-size {
+  width: 40px;
+  padding-left: 140px;
+  padding-top: 20px;
+}
