@@ -23,8 +23,9 @@ html{
 
 body {
   font-family: "Chillax-Regular";
-  max-width: 420px;
-  margin: 0;
+  max-width: 375px;
+  margin: auto;
+  position: relative;
 }
 header {
   background: #915f43;
@@ -58,12 +59,16 @@ h2 {
   
 }
 
-.photography img {
-  margin-left: 85px;
-  margin-right: 70px;
-  margin-top: 20px;
+.container-1 img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-top: 30px;
   margin-bottom: 20px;
-  width: 150px;
+  width: 200px;
+
 }
 
 .nos-semences {
@@ -100,7 +105,7 @@ h2 {
   width: 40px;
   margin-left: 10px;
   margin-right: 10px;
-  padding-left: 20px;
+  padding-left: 35px;
   padding-right: 20px;
 }
 
@@ -114,12 +119,14 @@ h2 {
   width: 60px;
   margin-left: 130px;
   padding-top: 15px;
+  padding-left: 30px;
 }
 
 .photography-carte {
   width: 200px;
   padding-left: 55px;
   padding-top: 30px;
+  margin-left: 35px;
 }
 
 .addresse-1 {
@@ -190,10 +197,10 @@ footer p {
 }
 
 .image-size {
-  width: 40px;
-  padding-left: 140px;
+  width: 80px;
+  padding-left: 150px;
   padding-top: 20px;
-  padding-bottom: 35px;
+  padding-bottom: 20px;
 }
 
 .photography-4 img {
@@ -209,43 +216,16 @@ footer p {
   flex-direction: row;
 }
 
-/* .fake-slider img  {
-  width: 100px;
-
-}
-
-.fake-slider-flower .packaging-flower img {
-  margin-right: 800px;
-} */
-
-.scroll-left{
-
+.scroll-left {
   left:0px;
-  
   animation-name: scroll-left;
-  
-  animation-duration: 7s;
-  
-  font-family: "coolvetica", sans-serif;
-  
-  font-weight: 400;
-  
-  font-style: normal;
-  
-  font-size: 60px;
-  
+  animation-duration: 6s;
   animation-iteration-count: infinite;
-  
   animation-timing-function: linear;
-  
   margin: 0;
-  
   line-height: 50px;
-  
-  text-align: center;
-  
   }
-  
+
   @keyframes scroll-left{
   
   from {transform: translateX(375px);}
@@ -253,21 +233,30 @@ footer p {
   to {transform: translateX(-375px); }
   
   }
-.slider-container { 
+.slider-container-2 { 
   display: flex;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  height: 270px;
+  height: 250px;
   flex-direction: column;
 }
 
-.container {
+.container-2 {
   padding-top: 0%;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
+div {
+  overflow: hidden;
+}
 
+.text {
+  font-size: 5px;
+  text-align: center;
+  color: black;
+  font-family: "Chillax";
+}
 
