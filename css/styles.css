@@ -1,151 +1,17 @@
 
 @font-face {
   font-family: "Chillax";
-  src: url('../Chillax-Bold.woff2') format('woff2');
+  src: url('../fonts/Chillax-Regular.woff2') format('woff2');
+  src: url('../fonts/Chillax-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Chillax";
-  src: url('../Chillax-Extralight.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Chillax";
-  src: url('../Chillax-Light.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Chillax";
-  src: url('../Chillax-Medium.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Chillax";
-  src: url('../Chillax-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Chillax";
-  src: url('../Chillax-Semibold.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Chillax";
-  src: url('../Chillax-Variable.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-Black.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-BlackItalicc.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-Bold.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-BoldItalic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-Italic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-Light.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-LightItalic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-Medium.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-MediumItalic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-Variable.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Plein";
-  src: url('../Plein-VariableItalic.woff2') format('woff2');
+  font-family: "Plein-Black";
+  src: url('../fonts/Plein-Black.woff2') format('woff2');
+  src: url('../fonts/Plein-Black.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -156,17 +22,19 @@ html{
 }
 
 body {
-  max-width: 375px;
+  font-family: "Chillax-Regular";
+  max-width: 420px;
   margin: 0;
 }
 header {
   background: #915f43;
   padding: 30px;
+  padding-top: 0;
 }
 
 .links {
   text-align: right;
-  font-family: Chillax-Regular;
+  font-family: "Chillax";
   padding-top: 15px;
 }
 
@@ -176,13 +44,13 @@ header {
 }
 
 h2 {
-  font-family: Plein-Black;
+  font-family: "Plein-Black";
   text-align: center;
   padding-top: 25px;
 }
 
 .text-semences-de-pays {
-  font-family: chillax-regular;
+  font-family: "Chillax";
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;
@@ -211,6 +79,7 @@ h2 {
 
 .photography-1 img {
   max-width: 200px;
+  margin-top: 30px;
 }
 
 .nos-semences img {
@@ -221,7 +90,7 @@ h2 {
 } 
 
 .font-chillax {
-  font-family: chillax-regular;
+  font-family: "Chillax";
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;
@@ -255,35 +124,35 @@ h2 {
 
 .addresse-1 {
   color: #bb957b;
-  font-family: chillax-regular;
+  font-family: "Chillax";
   text-align: center;
   margin-top: 50px;
 }
 
 .addresse-2 {
   color: #9c7d67;
-  font-family: chillax-regular;
+  font-family: "Chillax";
   text-align: center;
   margin-top: 30px;
 }
 
 .addresse-3 {
   color: #835b3f;
-  font-family: chillax-regular;
+  font-family: "Chillax";
   text-align: center;
   margin-top: 30px;
 }
 
 .addresse-4 {
   color: #593b29;
-  font-family: chillax-regular;
+  font-family: "Chillax";
   text-align: center;
   margin-top: 30px;
 }
 
 .addresse-5 {
   color: #000000;
-  font-family: Chillax-Regular;
+  font-family: "Chillax";
   text-align: center;
   margin-top: 30px;
   margin-bottom: 60px;
@@ -302,7 +171,7 @@ footer {
 
 footer p {
   text-align: center;
-  font-family: chillax-regular;
+  font-family: "Chillax";
   color:#000000;
 }
 
@@ -324,4 +193,82 @@ footer p {
   width: 40px;
   padding-left: 140px;
   padding-top: 20px;
+  padding-bottom: 35px;
 }
+
+.photography-4 img {
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.photography-4 img .container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .fake-slider img  {
+  width: 100px;
+
+}
+
+.fake-slider-flower .packaging-flower img {
+  margin-right: 800px;
+} */
+
+.scroll-left{
+
+  left:0px;
+  
+  animation-name: scroll-left;
+  
+  animation-duration: 7s;
+  
+  font-family: "coolvetica", sans-serif;
+  
+  font-weight: 400;
+  
+  font-style: normal;
+  
+  font-size: 60px;
+  
+  animation-iteration-count: infinite;
+  
+  animation-timing-function: linear;
+  
+  margin: 0;
+  
+  line-height: 50px;
+  
+  text-align: center;
+  
+  }
+  
+  @keyframes scroll-left{
+  
+  from {transform: translateX(375px);}
+  
+  to {transform: translateX(-375px); }
+  
+  }
+.slider-container { 
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 130px;
+  border: solid black 2px;
+  flex-direction: column;
+}
+
+.container {
+  padding-top: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
