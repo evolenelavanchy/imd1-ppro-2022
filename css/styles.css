@@ -258,8 +258,7 @@ footer p {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  height: 130px;
-  border: solid black 2px;
+  height: 270px;
   flex-direction: column;
 }
 
